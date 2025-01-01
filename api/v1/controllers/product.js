@@ -19,4 +19,4 @@ module.exports={
         let prodid=req.params.id;
         return res.status(200).json({Msg:`${prodid} Has Been Deleted`});
     }
-};
+};//
